@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gallery>
+  <!--Кое-что о самой флешке-->
+  <properties>
+    <folders>0</folders> <!--Понимает папки или все фотки в кучу-->
+    <source>local</source>
+  </properties>
+
+  <!--Конфигурируемые параметры-->
+  <params>
+    <group name="slideshow" title="Slideshow">
+      <p name="enable" title="Auto Start" control="checkbox"  default="false" values="true" />
+      <p name="stopByClick" title="Stop By Click" control="checkbox"  default="false" values="true" />
+      <p name="delay" title="Delay, sec." control="slider"  default="2" values="0..20:1"/>
+	  <p name="music" title="Music" control="text" default="" values=""/>
+  </group>
+
+    <group name="image" title="Image">
+      <p name="transitionEffect" title="Transition Effect" control="select" default="alpha" values="zoomOut,blur,saturation,ribble,wooble,alpha,lightening,shift,none"/>
+      <p name="transitionDuration" title="Transition Duration" control="slider" default="1" values="0..5:0.2"/>
+      <p name="scaleMode" title="Scale Mode" control="select" default="fit" values="fit, fill, noscale"/>
+	  <p name="cornerRadius" title="Corner Radius" control="text" default="30" values="" />
+    </group>
+
+    <group name="caption" title="Caption">
+      <p name="align" title="Align" control="select" default="bottom" values="top,bottom"/>
+      <p name="enable" title="Show Caption" control="checkbox" default="1" values="1"/>
+      <p name="fontSize" title="Font Size" control="slider" default="10" values="8..30:1"/>
+      <p name="textColor" title="Font Color" control="color" default="0xffffff"/>
+      <p name="backgroundColor" title="Background Color" control="color" default="0x000000"/>
+      <p name="backgroundAlpha" title="Background Opacity" control="slider" default="0.7" values="0..1:0.1"/>
+	  <p name="visible" title="Visible" control="select" default="onHover" values="always,never,onHover" />
+    </group>
+	
+	<group name="background" title="Background">
+		<p name="type" title="Type" control="select" default="color" values="color,image" />
+		<p name="src" title="Background Image" control="text" default="" values="" />
+		<p name="alpha" title="Background Opacity" control="slider" default="0.7" values="0..1:0.1" />
+		<p name="color" title="Background Color" control="color" defualt="0x000000" />
+	</group>
+	
+	<group name="navigation" title="Controls">
+		<p name="enable" title="Enable" control="checkbox" default="true" values="true" />
+		<p name="align" title="Align" control="select" default="top" values="top,bottom" />
+		<p name="visible" title="Visible" control="select" default="onHover" values="always,never,onHover" />
+		<p name="position" title="Position" control="select" default="stage" values="stage,image" />
+	</group>
+
+    <group name="scroller" title="Scroller">
+      <p name="scrollBy" title="Scroll By" control="select" default="mouse" values="wheel, mouse" />
+      <p name="lineStyle" title="Line Style" control="select" default="curve" values="curve, dotted, line, none" />
+      <p name="speed" title="Speed" control="slider" default="0.5" values="0..1:0.1"/>
+      <p name="cornerRadius" title="Corner Radius" control="slider" default="10" values="0..30:1"/>
+      <p name="hideButtons" title="Hide Buttons" control="checkbox" default="false" values="true"/>
+      <p name="itemDistance" title="Item Distance" control="text" default="6" class="numeric" />
+      <p name="color" title="Scroller Color" control="color" default="0xf0f0f0"/>
+      <p name="alpha" title="Scroller Opacity" control="slider" default="0.7" values="0..1:0.1"/>
+      <p name="borderWidth" title="Scroller Border Width" control="slider" default="1" values="0..10:1"/>
+      <p name="borderColor" title="Scroller Border Color" control="color" default="0xffffff"/>
+      <p name="width" title="Scroller Width" control="text" default="80" class="numeric" />
+      <p name="height" title="Scroller Height" control="text" default="40" class="numeric"/>
+    </group>
+	
+	<group name="scrollerItem" title="Scroller Item">
+	  <p name="width" title="Width" control="text" default="80" class="numeric" />
+      <p name="height" title="Height" control="text" default="40" class="numeric" />
+	  <p name="cornerRadius" title="Corner Radius" control="slider" default="10" values="0..30:1"/>
+	  <p name="alpha" title="Scroller Item Opacity" control="slider" default="0.7" values="0..1:0.1"/>
+	  <p name="shadow" title="Shadow" control="checkbox" default="false" values="true" />
+	  <p name="borderColor" title="Border Color" control="color" default="0xffffff"/>
+	  <p name="borderColorOnHover" title="Border Color OnHover" control="color" default="0xffffff"/>
+	  <p name="borderColorOnClick" title="Border Color OnClick" control="color" default="0xffffff"/>
+	  <p name="shadowColor" title="Shadow Color" control="color" default="0xffffff"/>
+	  <p name="shadowAlpha" title="Shadow Opacity" control="slider" default="0.7" values="0..1:0.1"/>
+	  <p name="shadowBlur" title="Shadow Blur" control="slider" default="4" values="0..10:1"/>
+	  <p name="shadowDistance" title="Shadow Distance" control="text" default="4" values="" class="numeric" />
+	  <p name="borderWidth" title="Border Width" control="slider" default="1" values="0..10:1"/>
+	  <p name="gradientStart" title="Border Gradient Start" control="color" default="0xffffff"/>
+	  <p name="gradientEnd" title="Border Gradient Start" control="color" default="0xffffff"/>
+	  <p name="textColor" title="Album Caption Text Color" control="color" default="0x000000" /> 
+	  <p name="fontSize" title="Album Caption Text Size" control="slider" default="13" values="6..24:1" />
+	</group>
+	
+	<group name="preview" title="Preview">
+	  <p name="width" title="Preview Width" control="text" default="80" class="numeric" />
+      <p name="height" title="Preview Height" control="text" default="40" class="numeric" />
+	  <p name="cornerRadius" title="Corner Radius" control="slider" default="10" values="0..30:1"/>
+	  <p name="alpha" title="Preview Opacity" control="slider" default="0.7" values="0..1:0.1"/>
+	  <p name="transitionEffect" title="Transition Effect" control="select" default="alpha" values="zoomOut,blur,saturation,ribble,wooble,alpha,none"/>
+      <p name="transitionDuration" title="Transition Duration" control="slider" default="1" values="0..5:0.2"/>
+	  <p name="shadow" title="Shadow" control="checkbox" default="false" values="true"/>
+	  <p name="borderColor" title="Border Color" control="color" default="0xffffff"/>
+	  <p name="distanceFromScroller" title="Distance From Scroller" control="text" default="4" values="" class="numeric" />
+	  <p name="shadowColor" title="Shadow Color" control="color" default="0xffffff"/>
+	  <p name="shadowAlpha" title="Shadow Opacity" control="slider" default="0.7" values="0..1:0.1"/>
+	  <p name="shadowBlur" title="Shadow Blur" control="slider" default="4" values="0..10:1"/>
+	  <p name="shadowDistance" title="Shadow Distance" control="text" default="4" values="" class="numeric" />
+	  <p name="borderWidth" title="Border Width" control="slider" default="1" values="0..10:1"/>
+	</group>
+
+  </params>
+</gallery>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gallery>
+  <!--Кое-что о самой флешке-->
+  <properties>
+    <folders>0</folders> <!--Понимает папки или все фотки в кучу-->
+    <source>local</source>
+  </properties>
+
+  <!--Конфигурируемые параметры-->
+  <params>
+    <group name="slideshow" title="Slideshow">
+      <p name="enable" title="Auto Start" control="checkbox"  default="0" values="1" />
+      <p name="delay" title="Delay, sec." control="slider"  default="2" values="0..20:1"/>
+  </group>
+
+    <group name="image" title="Image">
+	  <p name="width" title="Width" control="text" default="80" class="numeric" />
+      <p name="height" title="Height" control="text" default="40" class="numeric" />
+      <p name="status" title="Scale Mode" control="select" default="fit" values="fit, fill, noscale"/>
+	  <p name="description" title="Enable Description" control="select" default="always" values="always,mouseover,no"/>
+	  <p name="descriptionSize" title="Font Size" control="slider" default="14" values="6..18:1"/>
+	  <p name="stageBlackout" title="Blackout Background On Big Photo" control="checkbox"  default="0" values="1" />
+	  <p name="paginates" title="Paginate" control="checkbox"  default="0"  values="1"/>
+	  <p name="isURL" title="Image As Link" control="checkbox"  default="0"  values="1"/>
+    </group>
+	
+	<group name="background" title="Background">
+		<p name="type" title="Type" control="select" default="color" values="color,image" />
+		<p name="src" title="Background Image" control="text" default="" values="" />
+		<p name="alpha" title="Background Opacity" control="slider" default="0.7" values="0..1:0.1" />
+		<p name="color" title="Background Color" control="color" defualt="0x000000" />
+	</group>
+	
+	<group name="navigation" title="Controls">
+		<p name="albumIcon" title="Show Album Icon" control="checkbox" default="0" values="1" />
+		<p name="align" title="Align" control="select" default="top" values="top,left" />
+		<p name="name" title="Navigation Name" control="text" default="" values="" />
+	</group>
+
+	<group name="preview" title="Preview">
+	  <p name="width" title="Preview Width" control="text" default="80" class="numeric" />
+      <p name="height" title="Preview Height" control="text" default="40" class="numeric" />
+	  <p name="status" title="Scale Mode" control="select" default="fit" values="fit, fill, noscale"/>
+	  <p name="description" title="Enable Description" control="select" default="always" values="always,mouseover,no"/>
+	  <p name="descriptionSize" title="Description Size" control="slider" default="14" values="6..18:1"/>
+	  <p name="countByWidth" title="Images In Row" control="slider" default="3" values="1..10:1"/>
+	  <p name="countByHeight" title="Images In Column" control="slider" default="3" values="1..10:1"/>
+	  <p name="scrollingDirection" title="Direction" control="select" default="top" values="top,left" />
+	  <p name="shadow" title="Shadow" control="checkbox" default="1" values="1"/>
+	  <p name="border" title="Border" control="checkbox" default="1" values="1"/>
+	  <p name="borderColor" title="Border Color" control="color" default="0xffffff"/>
+	  <p name="shadowColor" title="Shadow Color" control="color" default="0xffffff"/>
+	  <p name="borderWidth" title="Border Width" control="slider" default="1" values="0..10:1"/>
+	  <p name="selectTint" title="Preview Shadow" control="checkbox" default="1" values="1"/>
+	  <p name="scrollingSpeed" title="Speed" control="slider" default="10" values="1..20:1"/>
+	</group>
+	
+	<group name="screen" title="Screen">
+		<p name="theme" title="Theme" control="select" default="black" values="white,black" />
+		<p name="fog" title="Fog" control="checkbox" default="1" values="1"/>
+		<p name="fogWidth" title="Fog Width" control="slider" default="50" values="0..100:5"/>
+		<p name="mainPreloader" title="Preload Images" control="checkbox" default="1" values="1"/>
+		<p name="previewPreloader" title="Preload Preview Images" control="checkbox" default="1" values="1"/>
+		<p name="navigationsButton" title="Navigation Button" control="checkbox" default="1" values="1"/>
+	</group>
+	<group name="controls" title="Controls">
+		<p name="fullscreen" title="Fullscreen" control="checkbox" default="0" values="1" />
+	</group>
+
+  </params>
+</gallery>

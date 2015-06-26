@@ -1,0 +1,127 @@
+div.throbber-on {
+	font-size: 80%; 
+	float: right;
+	width: 80px;
+	text-align: center;
+	background: url(../img/loading-page.gif) no-repeat center;
+}
+
+img.throbber-off {
+	display: none;
+	visibility: hidden;
+}
+
+img.throbber-on {
+	visibility: visible;
+}
+
+.mssfb-image {
+	padding: 0px;
+	margin: 0px;
+}
+
+.slideext .slidecontainer {
+	position: absolute;
+	visibility: hidden;
+	padding: 0px;
+	margin: 0px;
+	width: 22px;
+	height: 22px;
+	right:  5px;
+	bottom: 5px;
+	background: none;
+	border: none;
+	float: none;
+}
+
+.slideext:hover .slidecontainer {
+	visibility: visible;
+}
+
+img.mudsphoto, div.post img.mudsphoto {
+	overflow: hidden;
+	padding : 4px;
+	margin: 0px;
+	border : solid 1px #bbbbbb;
+}
+
+img.mudsphoto:hover {
+	border: 1px solid #777777;
+}
+
+div.throbber-off {	
+	font-size: 80%;
+	float: right;
+	width: 80px;
+	text-align: center;
+	background: none;
+}
+
+div.comments {
+	font-size: 11px;
+}
+
+div.muds-title {
+	float: left;  
+	padding-bottom: 4px; 
+	display: block; 
+	text-align: justify;
+}
+
+div.muds-link {
+	float: right; 
+	padding-bottom: 4px;
+}
+
+div.slideborder {
+	//display: table;
+}
+
+.slideext {
+	position: relative;
+	padding: 0px;
+	margin: 0px;
+	line-height: 0px;
+}
+
+.slideright,
+.slideleft,
+.slidecenter {
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+.slide {	
+	margin: 1px;
+	clear: both;
+}
+
+.slideright {
+	float: right;
+	margin-left: 10px;
+	clear: both;
+}
+
+.slideleft {
+	float: left;
+	margin-right: 10px;
+	clear: both;
+}
+
+.slidecenter {
+	margin-right:2px;
+	margin-left:2px;
+}
+
+div.fb-backgound {
+	background: url(../img/link.png) no-repeat;
+	min-height: 18px;
+	padding-left: 22px;
+}
+
+table.mudslideshow {
+	margin-left:auto;
+	margin-right:auto;
+	max-width: 100%;
+	border-spacing: 0px;
+}

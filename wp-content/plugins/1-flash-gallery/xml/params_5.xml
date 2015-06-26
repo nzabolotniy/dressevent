@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gallery>
+  <!--Кое-что о самой флешке-->
+  <properties>
+    <folders>0</folders> <!--Понимает папки или все фотки в кучу-->
+    <source>local</source>
+  </properties>
+
+  <!--Конфигурируемые параметры-->
+  <params>
+    <group name="slideshow" title="Slideshow">
+      <p name="enable" title="Auto Start" control="checkbox"  default="0" values="1" />
+      <p name="delay" title="Delay, sec." control="slider"  default="2" values="0..20:1"/>
+  </group>
+
+    <group name="image" title="Image">
+	  <p name="width" title="Width" control="text" default="80" class="numeric" />
+      <p name="height" title="Height" control="text" default="40" class="numeric" />
+      <p name="status" title="Scale Mode" control="select" default="fit" values="fit, fill, noscale"/>
+	  <p name="dimmingBackground" title="Blackout Background On Big Photo" control="checkbox"  default="0" values="1" />
+	  <p name="paginates" title="Paginate" control="checkbox"  default="0" values="1" />
+	  <p name="fullscreen" title="Fullscreen" control="checkbox"  default="0" values="1" />
+	  <p name="buttonsAlpha" title="Buttons Opacity" control="slider"  default="0.7" values=
+"0..1:0.1"	  />
+    </group>
+	
+	<group name="background" title="Background">
+		<p name="type" title="Type" control="select" default="color" values="color,image" />
+		<p name="src" title="Background Image" control="text" default="" values="" />
+		<p name="alpha" title="Background Opacity" control="slider" default="0.7" values="0..1:0.1" />
+		<p name="color" title="Background Color" control="color" defualt="0x000000" />
+	</group>
+	
+	<group name="preview" title="Preview">
+	  <p name="width" title="Preview Width" control="text" default="80" class="numeric" />
+      <p name="height" title="Preview Height" control="text" default="40" class="numeric" />
+	  <p name="status" title="Scale Mode" control="select" default="fit" values="fit, fill, noscale"/>
+	  <p name="description" title="Description" control="checkbox" default="1" values="1"/>
+	  <p name="descriptionSize" title="Font Size" control="slider" default="14" values="6..18:1"/>
+	  <p name="cornerRadius" title="Corner Radius" control="slider" default="10" values="0..30:1"/>
+	  <p name="shadow" title="Shadow" control="checkbox" default="1" values="1"/>
+	  <p name="border" title="Border" control="checkbox" default="1" values="1" />
+	  <p name="borderColor" title="Border Color" control="color" default="0xffffff"/>
+	  <p name="scatter" title="Scatter Images" control="slider" default="10" values="1..100:1"/>
+	  <p name="mouseClick" title="Image Turn" control="checkbox" default="0" values="1" />
+	  <p name="font" title="Font" control="select" default="Arial" values="Arial,Tahoma,Courier New,Times New Roman" />
+	</group>
+
+  </params>
+</gallery>

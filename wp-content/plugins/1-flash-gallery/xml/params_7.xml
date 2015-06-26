@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gallery>
+  <!--Конфигурируемые параметры-->
+  <params>
+	<group name="main" title="Main">
+		<p name="flipWidth" title="Flip Width" control="text" default="800" values="" />
+		<p name="flipHeight" title="Flip Height" control="text" default="533" values="" />
+		<p name="backgroundColor" title="Backgroup Color" control="color" default="0xffffff"/>
+		<p name="backgroundImage" title="Backgroup Image" control="text" default="" values="" />
+		<p name="backgroundImagePlacement" title="Backgroup Image Placement" control="select" default="fit" values="fit,center,top-left" />
+		<p name="alwaysOpened" title="Opened" control="checkbox" default="1" values="1" />
+		<p name="handOverCorner" title="Hand Over" control="checkbox" default="0" values="1" />
+		<p name="dropShadowEnabled" title="Shadow" control="checkbox" default="0" values="1" />
+		<p name="dropShadowHideWhenFlipping" title="Shadow Hide When Flipping" control="checkbox" default="0" values="1" />
+		<p name="shadowDepth" title="Shadow Depth" control="checkbox" default="0" values="1" />
+		<p name="flipSound" title="Sound" control="checkbox" default="0" values="1" />
+		<p name="navigationBar" title="Navigation" control="checkbox" default="1" values="1" />
+	</group>
+   <group name="pages" title="Pages">
+      <p name="pageAlignContent" title="Align Content" control="select" default="fit" values="fit,fill,noscale" />
+      <p name="pageBackgroundColor" title="Background Color" control="color" default="0xffffff" />
+      <p name="pageBackgroundImage" title="Background Image" control="text" default="" values="" />
+      <p name="pageFrame" title="Frame Thickness" control="text" default="15" values="" />
+      <p name="pageFrameColor" title="Frame Color" control="color" default="0x999999" />
+      <p name="pageFrameAlpha" title="Frame Opacity" control="slider" default="0.5" values="0..1:0.1" />
+      <p name="coverFrame" title="Frame Cover" control="checkbox" default="0" values="1" />
+      <p name="coverFrameColor" title="Frame Cover Color" control="color" default="0xffffff" />
+      <p name="coverFrameAlpha" title="Frame Cover Alpha" control="slider" default="0" values="0..1:0.1" />
+  </group>
+
+    <group name="menu" title="Menu">
+      <p name="albumListBtn" title="Album List Button" control="checkbox" default="1" values="1" />
+      <p name="exactFitBtn" title="Exact Fit Button" control="checkbox" default="1" values="1" />
+      <p name="zoomInBtn" title="Zoom In Button" control="checkbox" default="1" values="1" />
+      <p name="zoomOutBtn" title="Zoom Out Button" control="checkbox" default="1" values="1" />
+      <p name="fitToStageBtn" title="Fit To Stage Button" control="checkbox" default="1" values="1" />
+      <p name="firstBtn" title="First Button" control="checkbox" default="1" values="1" />
+      <p name="previousBtn" title="Previous Button" control="checkbox" default="1" values="1" />
+      <p name="navigationString" title="Navigation" control="checkbox" default="1" values="1" />
+	  <p name="nextBtn" title="Next Button" control="checkbox" default="1" values="1" />
+	  <p name="lastBtn" title="Last Button" control="checkbox" default="1" values="1" />
+	  <p name="soundOnBtn" title="Sound On Button" control="checkbox" default="1" values="1" />
+	  <p name="soundOffBtn" title="Sound Off Button" control="checkbox" default="1" values="1" />
+	  <p name="fullscreenBtn" title="Full Screen Button" control="checkbox" default="1" values="1" />
+	  <p name="exitFullscreenBtn" title="Exit Full Screen Button" control="checkbox" default="1" values="1" />
+    </group>
+
+  </params>
+</gallery>

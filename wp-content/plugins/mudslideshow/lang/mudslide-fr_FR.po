@@ -1,0 +1,513 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: MudSlideShow\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-04-01 08:18-0500\n"
+"PO-Revision-Date: 2011-04-01 08:18-0500\n"
+"Last-Translator: Juan Sebastián Echeverry <sebaxtian@gawab.com>\n"
+"Language-Team: Bonaldi\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: /var/www/wordpress/wp-content/plugins/mudslideshow/\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: sources\n"
+"X-Poedit-SearchPath-2: templates\n"
+"X-Poedit-SearchPath-3: tinymce\n"
+"X-Poedit-SearchPath-4: viewers\n"
+
+#: mudslideshow.php:199
+msgid "Error while Updating"
+msgstr "Erreur lors de la mise à jour"
+
+#: mudslideshow.php:202
+#, php-format
+msgid "%s (updated)"
+msgstr "%s (mis à jour)"
+
+#: mudslideshow.php:235
+msgid "You are not allowed to be here"
+msgstr ""
+
+#: mudslideshow.php:828
+msgid "Gallery deleted"
+msgstr "Galerie supprimée"
+
+#: mudslideshow.php:902
+msgid "Options saved"
+msgstr "Options sauvegardées"
+
+#: mudslideshow.php:1289
+#: viewers/highslide-viewer.php:42
+#: viewers/highslide-viewer.php:45
+#: viewers/highslide-viewer.php:184
+#: viewers/highslide-viewer.php:187
+#: viewers/fancybox-viewer.php:37
+#: viewers/fancybox-viewer.php:40
+#: viewers/lytebox-viewer.php:44
+#: viewers/lytebox-viewer.php:47
+#, php-format
+msgid "Open in %s"
+msgstr "Ouvrir dans %s"
+
+#: mudslideshow.php:1374
+#: viewers/highslide-viewer.php:131
+msgid "Update"
+msgstr "Mettre à jour"
+
+#: mudslideshow.php:1507
+msgid "Photo doesn't exist"
+msgstr "La photo n'existe pas"
+
+#: mudslideshow.php:1510
+msgid "This album doesn't have photos"
+msgstr "Cet album n'a pas de photos"
+
+#: mudslideshow.php:1583
+msgid "Unsupported source type"
+msgstr "Le type de source n'est pas supporté"
+
+#: mudslideshow.php:1598
+msgid "Album doesn't exist"
+msgstr "L'Album n'existe pas"
+
+#: mudslideshow.php:1861
+msgid "MudSlideShow widget to show photos from the galleries you have added into your posts."
+msgstr "Widget pour montrer les photos des galleries ajoutées aux articles."
+
+#: mudslideshow.php:1905
+msgid "Photo Album"
+msgstr "Album photo"
+
+#: tinymce/mce_mudslide.php:233
+#: tinymce/mce_mudslide.php:241
+#: tinymce/mce_mudslide.php:245
+#: tinymce/mce_mudslide.php:249
+#: tinymce/mce_mudslide.php:517
+#: tinymce/mce_mudslide.php:578
+#: tinymce/mce_mudslide.php:665
+#: tinymce/mce_mudslide.php:762
+msgid "Select gallery"
+msgstr "Sélectionnez galerie"
+
+#: tinymce/mce_mudslide.php:237
+#: tinymce/mce_mudslide.php:253
+#: tinymce/mce_mudslide.php:684
+#: tinymce/mce_mudslide.php:781
+msgid "Select gallery first"
+msgstr "Sélectionnez la première galerie"
+
+#: tinymce/mce_mudslide.php:474
+#: tinymce/mce_mudslide.php:515
+#: tinymce/mce_mudslide.php:576
+#: tinymce/mce_mudslide.php:658
+#: tinymce/mce_mudslide.php:755
+msgid "Gallery"
+msgstr "Galerie"
+
+#: tinymce/mce_mudslide.php:475
+msgid "Simple Gallery"
+msgstr "Galerie Simple"
+
+#: tinymce/mce_mudslide.php:476
+#: tinymce/mce_mudslide.php:682
+#: tinymce/mce_mudslide.php:779
+msgid "Picture"
+msgstr "Image"
+
+#: tinymce/mce_mudslide.php:477
+msgid "Feature Picture"
+msgstr ""
+
+#: tinymce/mce_mudslide.php:487
+#: tinymce/mce_mudslide.php:548
+#: tinymce/mce_mudslide.php:627
+#: tinymce/mce_mudslide.php:724
+msgid "Source"
+msgstr "Source"
+
+#: tinymce/mce_mudslide.php:498
+#: tinymce/mce_mudslide.php:559
+#: tinymce/mce_mudslide.php:639
+#: tinymce/mce_mudslide.php:736
+msgid "User"
+msgstr "Utilisateur"
+
+#: tinymce/mce_mudslide.php:512
+#: tinymce/mce_mudslide.php:573
+#: tinymce/mce_mudslide.php:654
+#: tinymce/mce_mudslide.php:751
+msgid "When in doubt, use your email as username."
+msgstr "En cas de doute, utilisez votre e-mail comme nom d'utilisateur."
+
+#: tinymce/mce_mudslide.php:536
+#: tinymce/mce_mudslide.php:615
+#: tinymce/mce_mudslide.php:712
+msgid "Show description"
+msgstr ""
+
+#: tinymce/mce_mudslide.php:537
+#: tinymce/mce_mudslide.php:616
+msgid "Reverse order"
+msgstr ""
+
+#: tinymce/mce_mudslide.php:597
+#: tinymce/mce_mudslide.php:694
+msgid "Size"
+msgstr "Taille"
+
+#: tinymce/mce_mudslide.php:603
+#: tinymce/mce_mudslide.php:700
+msgid "Float"
+msgstr "Float"
+
+#: tinymce/mce_mudslide.php:606
+#: tinymce/mce_mudslide.php:703
+msgid "Left"
+msgstr "Gauche"
+
+#: tinymce/mce_mudslide.php:607
+#: tinymce/mce_mudslide.php:704
+msgid "Right"
+msgstr "Droite"
+
+#: tinymce/mce_mudslide.php:608
+#: tinymce/mce_mudslide.php:705
+msgid "Center"
+msgstr "Centrer"
+
+#: tinymce/mce_mudslide.php:796
+msgid "Cancel"
+msgstr "Annuler"
+
+#: tinymce/mce_mudslide.php:800
+msgid "Insert"
+msgstr "Insérer"
+
+#: viewers/highslide-viewer.php:35
+#: viewers/highslide-viewer.php:175
+#: viewers/fancybox-viewer.php:28
+#: viewers/lytebox-viewer.php:32
+#: viewers/none-viewer.php:31
+#: viewers/none-viewer.php:86
+msgid "No name"
+msgstr "Sans nom"
+
+#: viewers/highslide-header.php:71
+msgid "ltr"
+msgstr "ltr"
+
+#: viewers/highslide-header.php:72
+msgid "Loading..."
+msgstr "Chargement ..."
+
+#: viewers/highslide-header.php:73
+msgid "Click to cancel"
+msgstr "Cliquez ici pour annuler"
+
+#: viewers/highslide-header.php:74
+msgid "Click to bring to front"
+msgstr "Cliquez ici pour placer au premier plan"
+
+#: viewers/highslide-header.php:75
+msgid "Expand to actual size (f)"
+msgstr "Développer à la taille réelle (f)"
+
+#: viewers/highslide-header.php:76
+msgid "Powered by Highslide JS"
+msgstr "Créé avec Highslide JS"
+
+#: viewers/highslide-header.php:77
+msgid "Go to the Highslide JS homepage"
+msgstr "Aller à la page d'accueil de Highslide JS"
+
+#: viewers/highslide-header.php:78
+msgid "Previous"
+msgstr "Précédent"
+
+#: viewers/highslide-header.php:79
+msgid "Next"
+msgstr "Suivant"
+
+#: viewers/highslide-header.php:80
+#: viewers/highslide-header.php:90
+msgid "Move"
+msgstr "Déplacer"
+
+#: viewers/highslide-header.php:81
+msgid "Close"
+msgstr "Fermer"
+
+#: viewers/highslide-header.php:82
+msgid "Close (esc)"
+msgstr "Fermer (échap)"
+
+#: viewers/highslide-header.php:83
+msgid "Resize"
+msgstr "Redimensionner"
+
+#: viewers/highslide-header.php:84
+msgid "Play"
+msgstr "Jouer"
+
+#: viewers/highslide-header.php:85
+msgid "Play slideshow (spacebar)"
+msgstr "Lancer le diaporama (ESPACE)"
+
+#: viewers/highslide-header.php:86
+msgid "Pause"
+msgstr "Pause"
+
+#: viewers/highslide-header.php:87
+msgid "Pause slideshow (spacebar)"
+msgstr "Pause diaporama (ESPACE)"
+
+#: viewers/highslide-header.php:88
+msgid "Previous (arrow left)"
+msgstr "Précédent (flèche gauche)"
+
+#: viewers/highslide-header.php:89
+msgid "Next (arrow right)"
+msgstr "Suivant (flèche droite)"
+
+#: viewers/highslide-header.php:91
+msgid "1:1"
+msgstr "1:1"
+
+#: viewers/highslide-header.php:92
+msgid "Image %1 of %2"
+msgstr "Image %1 sur %2"
+
+#: viewers/highslide-header.php:93
+msgid "Click to close image, click and drag to move. Use arrow keys for next and previous."
+msgstr "Cliquez pour fermer l'image. Cliquez et faites glisser pour déplacer. Utilisez les touches fléchées pour Suivant et Précédent."
+
+#: viewers/none-header.php:10
+msgid "Can\\'t read MudSlideShow Feed"
+msgstr "Impossible de lire le flux"
+
+#: sources/flickr.php:152
+#: sources/flickr.php:329
+#: sources/picasa.php:134
+#: sources/picasa.php:354
+#, php-format
+msgid "Most Recent photos from %s"
+msgstr "La plupart des photos récentes de %s"
+
+#: sources/flickr.php:185
+#: sources/flickr.php:527
+#: sources/picasa.php:170
+#: sources/picasa.php:569
+#, php-format
+msgid "Tag: %s"
+msgstr "Tag: %s"
+
+#: sources/flickr.php:694
+#: sources/flickr.php:723
+#: sources/flickr.php:754
+#: sources/flickr.php:782
+#: sources/picasa.php:753
+#: sources/picasa.php:783
+#: sources/picasa.php:815
+#: sources/picasa.php:843
+msgid "XML File doesn't exist"
+msgstr "Le fichier XML n'existe pas"
+
+#: templates/mudslide_widget_manage.php:3
+msgid "Title"
+msgstr "Titre"
+
+#: templates/mudslide_widget_manage.php:15
+msgid "Random Photo"
+msgstr "Photo aléatoire "
+
+#: templates/mudslide_widget_manage.php:18
+msgid "Last Photo"
+msgstr "Dernière photo"
+
+#: templates/mudslide_widget_manage.php:21
+msgid "Random photo from last gallery"
+msgstr "Photo aléatoire de la dernière galerie"
+
+#: templates/mudslide_widget_manage.php:24
+msgid "Random photo from this gallery"
+msgstr "Photo aléatoire de cette galerie"
+
+#: templates/mudslide_widget_manage.php:29
+msgid "No gallery"
+msgstr "Aucune galerie"
+
+#: templates/mudslide_widget_manage.php:49
+msgid "Display on its page"
+msgstr ""
+
+#: templates/mudslide_widget_manage.php:55
+#, php-format
+msgid "You can <a href=\"%s\">edit</a> the galleries list in <strong>Tools / MudSlideShow</strong>. Remember this plugin adds automatically a gallery to the list once it has been viewed in a post or page, even if you have deleted it from the list."
+msgstr "Vous pouvez <a href=\"%s\">mettre à jour ou supprimer</a> n'importe quelle galerie de cette liste dans <strong>Outils / MudSlideShow.</strong> Rappelez-vous ce plugin ajoute automatiquement une galerie à la liste une fois qu'elle a été ajoutée et / ou affichée dans un post ou une page."
+
+#: templates/mudslide_options.php:6
+msgid "Yes"
+msgstr "Oui"
+
+#: templates/mudslide_options.php:7
+msgid "No"
+msgstr "Non"
+
+#: templates/mudslide_options.php:18
+msgid "MudSlideShow Options"
+msgstr "Options de MudSlideShow"
+
+#: templates/mudslide_options.php:23
+msgid "Columns"
+msgstr "Colonnes"
+
+#: templates/mudslide_options.php:39
+msgid "Thumbnail size"
+msgstr "Taille vignette"
+
+#: templates/mudslide_options.php:43
+msgid "Thumbnail type"
+msgstr "Type vignette"
+
+#: templates/mudslide_options.php:45
+msgid "Squared"
+msgstr "Carrée"
+
+#: templates/mudslide_options.php:46
+msgid "Scaled"
+msgstr "Echelle"
+
+#: templates/mudslide_options.php:47
+msgid "For squared thumbnails, size has to be lower or equal to 75 for Flickr, and 160 for Picasa."
+msgstr "Pour les vignettes carrées, la taille doit être égale ou inférieure à 75 pour Flickr, et 160 pour Picasa."
+
+#: templates/mudslide_options.php:51
+msgid "Full size"
+msgstr "Taille réelle (f)"
+
+#: templates/mudslide_options.php:53
+msgid "800px (approx)"
+msgstr "800px (approx)"
+
+#: templates/mudslide_options.php:54
+msgid "Original"
+msgstr "Original"
+
+#: templates/mudslide_options.php:60
+msgid "Show link to source gallery/photo"
+msgstr "Afficher un lien vers la galerie/photo source"
+
+#: templates/mudslide_options.php:64
+msgid "Use MudSlideShow to show images added with the Wordpress media manager? (Only the thumbnails linked to the original image)"
+msgstr "Utilisez MudSlideShow pour afficher les images ajoutées avec le gestionnaire de média? (Seules les vignettes liée à l'image originale)"
+
+#: templates/mudslide_options.php:64
+msgid "This is an early stage feature, be careful."
+msgstr "En développement, attention."
+
+#: templates/mudslide_options.php:68
+msgid "Import the feature picture and set it as thumbnail when save or modify a post/page without feature image."
+msgstr ""
+
+#: templates/mudslide_options.php:72
+msgid "The order to select the feature picture is <ol style='font-size: 11px;'><li>First image described with the tag <strong>[mudthumb]</strong>.</li><li>First single image.</li><li>First image in first gallery.</li><li>First attached image.</li></ol>"
+msgstr ""
+
+#: templates/mudslide_options.php:72
+msgid "To not asign automatically a thumbnail to a page/post just add the <a href='http://www.kriesi.at/archives/how-to-use-wordpress-custom-fields' target='_BLANK'>custom field</a> <strong>no_thumb</strong>."
+msgstr ""
+
+#: templates/mudslide_options.php:79
+msgid "Viewer"
+msgstr "Visionneuse"
+
+#: templates/mudslide_options.php:80
+msgid "Enabled?"
+msgstr "Activé?"
+
+#: templates/mudslide_options.php:81
+msgid "Required plugin"
+msgstr "Plugin requis"
+
+#: templates/mudslide_options.php:82
+msgid "Free for<br>commercial sites?"
+msgstr "Gratuit pour les <br> sites commerciaux?"
+
+#: templates/mudslide_options.php:86
+#: templates/mudslide_options.php:88
+#: templates/mudslide_options.php:95
+#: templates/mudslide_options.php:102
+#: templates/mudslide_options.php:109
+msgid "None"
+msgstr "Aucun"
+
+#: templates/mudslide_options.php:119
+msgid "Be a fair user with the creator of the viewer you choose, and buy the license<br>if this plugin will run on a commercial site."
+msgstr "Soyez juste envers l'auteur de l'extension, acheter la license<br> si elle est utilisé pour un site commercial."
+
+#: templates/mudslide_options.php:125
+msgid "Update Options"
+msgstr "Mettre à jour les options"
+
+#: templates/mudslide_manage.php:108
+msgid "Galleries"
+msgstr "Galeries"
+
+#: templates/mudslide_manage.php:111
+msgid "Internal list"
+msgstr "Liste interne"
+
+#: templates/mudslide_manage.php:114
+#: templates/mudslide_manage.php:116
+msgid "Search galleries"
+msgstr "Rechercher des galeries"
+
+#: templates/mudslide_manage.php:119
+#: templates/mudslide_manage.php:188
+#, php-format
+msgid "Displaying %s&#8211;%s of %s"
+msgstr "Afficher %s&#8211;%s de %s"
+
+#: templates/mudslide_manage.php:132
+msgid "No entries found"
+msgstr "Aucune entrée"
+
+#: templates/mudslide_manage.php:132
+#: templates/mudslide_manage.php:140
+#: templates/mudslide_manage.php:202
+#: templates/mudslide_addgallery.php:213
+#: templates/mudslide_addgallery.php:253
+msgid "Add Gallery"
+msgstr "Galerie ajoutée"
+
+#: templates/mudslide_manage.php:135
+#: templates/mudslide_manage.php:197
+msgid "Bulk Actions"
+msgstr "Actions par lot"
+
+#: templates/mudslide_manage.php:137
+#: templates/mudslide_manage.php:181
+#: templates/mudslide_manage.php:199
+msgid "Delete"
+msgstr "Supprimer"
+
+#: templates/mudslide_manage.php:139
+#: templates/mudslide_manage.php:201
+msgid "Apply"
+msgstr "Appliquer"
+
+#: templates/mudslide_manage.php:181
+msgid "Delete this gallery?"
+msgstr "Supprimer cette galerie?"
+

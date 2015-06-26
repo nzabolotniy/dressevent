@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gallery>
+  <!--Кое-что о самой флешке-->
+  <properties>
+    <folders>0</folders> <!--Понимает папки или все фотки в кучу-->
+    <source>local</source>
+  </properties>
+
+  <!--Конфигурируемые параметры-->
+  <params>
+    <group name="slideshow" title="Slideshow">
+      <p name="enable" title="Auto Start" control="checkbox"  default="0" values="1" />
+      <p name="delay" title="Delay, sec." control="slider"  default="2" values="0..20:1"/>
+	  <p name="music" title="Music" control="checkbox" default="0" values="1" />
+	  <p name="musicPath" title="Music Path" control="text"  default="" values="" />
+  </group>
+
+    <group name="caption" title="Caption">
+      <p name="align" title="Align" control="select" default="bottom" values="top,bottom"/>
+      <p name="enable" title="Show Caption" control="checkbox" default="1" values="1" />
+      <p name="fontSize" title="Font Size" control="slider" default="14" values="8..30:1"/>
+      <p name="textColor" title="Font Color" control="color" default="0xffffff"/>
+	  <p name="background" title="Show Background" control="checkbox" default="0" values="1" />
+      <p name="backgroundColor" title="Background Color" control="color" default="0x000000"/>
+      <p name="backgroundAlpha" title="Background Opacity" control="slider" default="0.7" values="0..1:0.1"/>
+	  <p name="visible" title="Visible" control="select" default="onHover" values="always,never,onHover" />
+    </group>
+	
+
+    <group name="scroller" title="Scroller">
+      <p name="width" title="Scroller Width" control="text" default="80" class="numeric" />
+	  <p name="visible" title="Show Scroller" control="checkbox" default="1" values="1"/>
+    </group>
+	
+	
+	
+	<group name="preview" title="Preview">
+	  <p name="width" title="Preview Width" control="text" default="80" class="numeric" />
+      <p name="height" title="Preview Height" control="text" default="40" class="numeric" />
+	  <p name="cornerRadius" title="Corner Radius" control="slider" default="10" values="0..30:1"/>
+	  <p name="alpha" title="Preview Opacity" control="slider" default="0.7" values="0..1:0.1"/>
+	  <p name="type" title="Type" control="select" default="triangle" values="line,triangle" />
+	  <p name="scaleEffect" title="Effect" control="select" default="spin" values="scale,spin,slide" />
+	  <p name="reflection" title="Reflection" control="checkbox" default="1" values="1" />
+	  <p name="reflectionAlpha" title="Reflection Opacity" control="slider" default="0.7" values="0..1:0.1"/>
+	  <p name="reflectionGradientColorStart" title="Gradient Color Start" control="color" default="0x000000" />
+	  <p name="reflectionGradientColorFinish" title="Gradient Color End" control="color" default="0xffffff" />
+	  <p name="borderColor" title="Border Color" control="color" default="0xffffff"/>
+	  <p name="borderWidth" title="Border Width" control="slider" default="1" values="0..10:1"/>
+	  <p name="rotation" title="Rotation" control="text" default="25" class="numeric" />
+	  <p name="backgroundColor" title="Background Color" control="color" default="0xffffff"/>
+	  <p name="isURL" title="Preview Is URL" control="checkbox" default="0" values="1" />
+	</group>
+
+  </params>
+</gallery>

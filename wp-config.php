@@ -16,16 +16,16 @@
 
 // ** Настройки MySQL: Эту информацию можно получить у вашего хостинг-провайдера ** //
 /** Имя базы данных для WordPress */
-define('DB_NAME', '4fr4id_db0');
+define('DB_NAME', 'dressevent');
 
 /** Имя пользователя MySQL */
-define('DB_USER', '4fr4id_db0');
+define('DB_USER', 'dressevent');
 
 /** Пароль пользователя MySQL */
-define('DB_PASSWORD', '483524');
+define('DB_PASSWORD', 'dress089');
 
 /** Адрес сервера MySQL */
-define('DB_HOST', 'db22.hqhost.net');
+define('DB_HOST', 'dressevent.ru');
 
 /** Кодировка базы данных при создании таблиц. */
 define('DB_CHARSET', 'utf8');

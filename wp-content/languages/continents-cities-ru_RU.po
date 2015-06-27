@@ -1,22 +1,23 @@
-# Copyright (C) 2012 WordPress
+# Copyright (C) 2013 WordPress
 # This file is distributed under the same license as the WordPress package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WordPress 3.4.2\n"
-"Report-Msgid-Bugs-To: http://wppolyglots.wordpress.com\n"
-"POT-Creation-Date: 2012-06-13 18:19:10+00:00\n"
-"PO-Revision-Date: 2012-09-06 22:32+0400\n"
+"Project-Id-Version: WordPress 4.1.4\n"
+"Report-Msgid-Bugs-To: http://make.wordpress.org/polyglots\n"
+"POT-Creation-Date: 2015-02-09 03:17:11+00:00\n"
+"PO-Revision-Date: 2015-04-27 19:55+0300\n"
 "Last-Translator: Sergey Biryukov <sergeybiryukov.ru@gmail.com>\n"
 "Language-Team: ru.wordpress.org <sergeybiryukov.ru@gmail.com>\n"
+"Language: ru_RU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11) ? 0 : ((n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20)) ? 1 : 2);\n"
-"X-Poedit-Language: Russian\n"
-"X-Poedit-Country: RUSSIAN FEDERATION\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11) ? 0 : ((n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20)) ? 1 : 2);\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-KeywordsList: __;_e;_c;__ngettext_noop:1,2;__ngettext:1,2\n"
 "X-Poedit-Basepath: S:\\home\\wordpress\\trunk\n"
+"X-Generator: Poedit 1.7.6\n"
 "X-Poedit-SearchPath-0: S:\\home\\wordpress\\trunk\n"
 
 #: wp-admin/includes/continents-cities.php:7
@@ -649,7 +650,7 @@ msgstr "Нассау"
 
 #: wp-admin/includes/continents-cities.php:164
 msgid "New York"
-msgstr "Нью Йорк"
+msgstr "Нью-Йорк"
 
 #: wp-admin/includes/continents-cities.php:165
 msgid "Nipigon"
@@ -1625,7 +1626,7 @@ msgstr "Лондон"
 
 #: wp-admin/includes/continents-cities.php:408
 msgid "Luxembourg"
-msgstr "люксембург"
+msgstr "Люксембург"
 
 #: wp-admin/includes/continents-cities.php:409
 msgid "Madrid"
@@ -1745,7 +1746,7 @@ msgstr "Варшава"
 
 #: wp-admin/includes/continents-cities.php:438
 msgid "Zagreb"
-msgstr "загреб"
+msgstr "Загреб"
 
 #: wp-admin/includes/continents-cities.php:439
 msgid "Zaporozhye"
@@ -1753,7 +1754,7 @@ msgstr "Запорожье"
 
 #: wp-admin/includes/continents-cities.php:440
 msgid "Zurich"
-msgstr "Цурих"
+msgstr "Цюрих"
 
 #: wp-admin/includes/continents-cities.php:441
 msgid "Indian"
@@ -1966,4 +1967,3 @@ msgstr "Уоллис"
 #: wp-admin/includes/continents-cities.php:493
 msgid "Yap"
 msgstr "Яп"
-
